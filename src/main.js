@@ -1,4 +1,4 @@
-const store = Vue.reactive(new app.logic.Repository())
+const store = Vue.reactive(new app.logic.Repository(window.localStorage))
 
 const TodoApp = {
   data ()  {
